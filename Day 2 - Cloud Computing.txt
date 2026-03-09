@@ -1,0 +1,35 @@
+Day 2 - Cloud Computing
+owner---> rwx---> read, write and execute
+member ---> r-x---> read, execute
+others----> r-- ---> read
+
+
+1.dirct method
+owner --> rwx
+member ---> r-x
+others ---> r--
+
+2. Numerical method
+r ---> 4
+w ----> 2
+x ---> 1
+
+owner---> rwx ---> 7
+member ---> r-x ----> 5
+others ---> r-- ---> 4
+
+-wx ----> 3
+--x ---> 1
+-w- --->2
+rw- --->6
+
+#chmod---> change permission
+#chown --->change the ownership
+
+#PROCESS MANAGEMENT
+process == running program
+ps --> show process
+ps aux---> detailed process
+top --> real time process monitor (q)
+kill pid---> kill process
+kill -9 pid ---> force kill process
