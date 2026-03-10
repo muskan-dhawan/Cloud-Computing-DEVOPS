@@ -1,0 +1,29 @@
+Day 3 - CLOUD COMPUTING
+CRON--> cron automatically runs command at a specific time.
+cron job ---> a task that runs automatically at scheduled time
+
+cron system has two important parts-
+->cron -cron is the background service in Linux
+it keeps checking time and running scheduled tasks.
+->crontab- it is a file where we can store scheduled jobs
+
+
+* * * * * command
+first star ---> minute
+second star ---> hour
+third star ---> day of month
+fourth star ---> month
+fifth star ---> day of week
+
+#BASH SCRIPT
+WHAT IS BASH-->
+we write commands like ls, pwd, woami something is interpreting those commands and running them
+that program is called shell
+the most common shell in Linux is bash
+bash == bourne again shell (it is a command interpreter)
+
+you type command--> bash undertand it -> bash tells it to Linux kernel--> command run
+
+what is bash script?????????????????????????
+a bash script is a file containing multiple Linux commands execute it automatically
+#!/bin/bash--->shebang(it tells Linux that run this file using bash interpreter)
